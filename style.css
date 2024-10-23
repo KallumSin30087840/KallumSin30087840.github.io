@@ -17,11 +17,11 @@ body{
 
 .textbox {
     background-color:rgb(130, 105, 160);
-    width:30%;
-    margin-left:35%;
+    width:33.3%;
     text-align:center;
     color: rgb(255, 255, 255); 
     font-size: 22.3px;
+    float: left;
 }
 
 .Heading {
@@ -58,15 +58,19 @@ body{
 }
 .DoC{
    
-    width:32%;
+    width:33.3%;
     float: left;
 }
 .XB {
    
     width:33.33%;
-    float: right;
+    float: left;
     margin-top: 10%;
-    margin-left: 95%;
+    
+}
+
+.row {
+    height: 500px;
 }
 
 .column{
@@ -82,11 +86,15 @@ body{
 .nav1 {
     margin-top: 6.5%;
 }
+
 .nav2 {
- margin-top:-3%;
+ margin-bottom:3%;
     
 }
 .nav3 {
     margin-top: 45%;
 }
 
+footer {
+    margin-top: auto
+}
